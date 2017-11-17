@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_about"
+            android:fillColor="#FF000000"
+            android:icon="@drawable/about_40x40"
+            android:title="About Civic Aid" />
+        <item
+            android:id="@+id/nav_developer"
+            android:fillColor="#FF000000"
+            android:icon="@drawable/d_40x40"
+            android:title="Developers Info" />
+        <item
+            android:id="@+id/nav_disclaimer"
+            android:fillColor="#FF000000"
+            android:icon="@drawable/disclaimer_40x40"
+            android:title="Disclaimer" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Share" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:fillColor="#FF000000"
+            android:icon="@drawable/fb_40x40"
+            android:title="Feedback"/>
+    </group>
+
+</menu>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="com.example.dell.civicaid.MainActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="40dp"
+    android:padding="5dp">
+<EditText
+    android:id="@+id/tf1"
+    android:layout_width="304dp"
+    android:layout_height="52dp"
+    android:hint="@string/username"
+    android:inputType="text|textCapCharacters|textCapWords"
+    android:padding="10dp"
+    android:textAlignment="center"
+    android:textColor="@color/colorWhite"
+    android:textColorHint="#FFFFFF"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:layout_alignTop="@+id/imageView2"
+    android:layout_alignStart="@+id/TFpassword"
+    android:layout_marginTop="6dp" />
+
+    <EditText
+        android:id="@+id/TFpassword"
+        android:layout_width="304dp"
+        android:layout_height="52dp"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="14dp" />
+
+    <Button
+        android:id="@+id/B1"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="122dp"
+        android:layout_height="52dp"
+        android:onClick="call"
+        android:text="@string/LogIn"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textAllCaps="false"
+        android:layout_below="@+id/TFpassword"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/B2"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="189dp"
+        android:layout_height="49dp"
+        android:onClick="call"
+        android:text="@string/SignUpHere"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:visibility="visible"
+        android:layout_below="@+id/B1"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+      />
+
+<ImageView
+    android:id="@+id/imageView2"
+    android:layout_width="37dp"
+    android:layout_height="42dp"
+    app:srcCompat="@drawable/un_30x30"
+    android:contentDescription="@null"
+    android:layout_marginTop="80dp"
+    android:layout_alignParentStart="true"
+    />
+
+<ImageView
+    android:id="@+id/imageView4"
+    android:layout_width="37dp"
+    android:layout_height="42dp"
+    app:srcCompat="@drawable/pw_1_30x30"
+    android:contentDescription="@null"
+    android:layout_below="@+id/imageView2"
+    android:layout_marginTop="40dp"
+    android:layout_alignParentStart="true" />
+
+</RelativeLayout>
+
+    </ScrollView>

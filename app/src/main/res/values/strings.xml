@@ -1,0 +1,99 @@
+<resources>
+
+    <string name="app_name">CIVIC AID</string>
+
+    <string name="CitizenFacilitationApp">CITIZEN FACILITATION APP</string>
+
+    <string name="SignUpHere">SIGN UP HERE</string>
+    <string name="LogIn">Log In</string>
+    <string name="password">PASSWORD</string>
+    <string name="username">USERNAME</string>
+
+    <string name="uname">Username</string>
+    <string name="enterEmail">Enter e-mail address</string>
+    <string name="ContactNumber">Contact number</string>
+    <string name="pass">Password</string>
+    <string name="ConfirmPass">Confirm password</string>
+    <string name="CreateAccount">CREATE ACCOUNT</string>
+
+    <string name="helpme">Help Me!!</string>
+    <string name="reportincident">Report an Incident</string>
+    <string name="travelsafe">Travel Safe</string>
+    <string name="nearby">Nearby Places</string>
+    <string name="creategroup">Create my Group</string>
+
+    <string name="inform">INFORM NOW</string>
+    <string name="VehicalNo">Vehical Number</string>
+    <string name="destination">Place of Destination</string>
+    <string name="boarding">Place of Boarding</string>
+    <string name="label">LET YOUR EMERGENCY CONTACTS KNOW YOU ARE TRAVELLING</string>
+
+    <string name="title_activity_main2">Civic Aid</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_about_civic_aid">About Civic Aid</string>
+    <string name="large_text">
+        "\n"
+
+        "Civic Aid application is a free application developed as a college project."
+        "Responsibility of the developers.Civic Aid aims to deliver precisely delivered tools to "
+        "enhance safety and security of individuals across all sectors of their life. The app aims "
+        "to empower citizens and bridge the platform between citizens, police administration and "
+        "other government bodies. It is developed with the ambition to safeguard, educate and "
+        "maintain secure social environment.\n\n "
+        "Civic Aid is a mobile application that\n\n"
+        ">> Provides empowerment, safety and convenience to common man.\n "
+        ">> Encourages public participation in raising voice anytime, anywhere against any unlawful,"
+        "illegal act and development area.\n"
+        ">> Takes a step forward towards a crime-free city, safe and civilized society.\n\n"
+
+    </string>
+
+    <string name="developerInfo">
+        "\n\n"
+        "Civic Aid application is developed by students of Khalsa college of engineering and "
+        "technology as their major project of 7th semester. This app is not designed to serve "
+        "the clients.\n\n"
+        "It is developed by \n\n"
+        "Jasmine Kaur   ( 1414717 )\n"
+        "Inderpreet Kaur   ( 1414716 )\n"
+        "Mansimar Singh Kalra   ( 1414726 )\n\n"
+    </string>
+
+    <string name="disclaimer">
+        "\n\n\n"
+       " Civic Aid is a mobile application conceptualized, developed and initited by students as"
+       " their college project.\n"
+        "This application is only intended towards convenience and"
+       " empowerment to citizens and it does not guarantee resolution of complaints made.\n"
+        "All its features are dedicated to develop a safe and secure living environment.\n"
+        "This app does not guarantee any action or result in any manner for any reporting done"
+        "through the application.\n\n"
+       " Civic Aid is not liable to any party or person for unattended complaints."
+    </string>
+    <string name="title_activity_report_incident">Report an Incident</string>
+
+    <string name="name">Your name</string>
+    <string name="message">Message</string>
+    <string name="send">Send Feedback</string>
+
+    <string name="information">Information</string>
+    <string name="names">Name</string>
+
+    <string name="report">Submit Report</string>
+    <string name="contact">Your Contact</string>
+
+    <string-array name="category">
+        <item>--Select Category--</item>
+        <item>Harassment</item>
+        <item>Corruption</item>
+        <item>Domestic Violence</item>
+        <item>Traffic Offense</item>
+        <item>Crime</item>
+        <item>Other Illegal Offence</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+</resources>
